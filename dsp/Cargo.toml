@@ -1,0 +1,11 @@
+[package]
+name = "rhodes-dsp"
+description = "Modal Rhodes model: hammer, tine modes and magnetic pickup"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true

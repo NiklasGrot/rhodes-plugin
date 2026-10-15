@@ -1,0 +1,3 @@
+# nice-plug-xtask bundle names: `cargo xtask bundle rhodes --release`
+[rhodes]
+name = "Rhodes"
