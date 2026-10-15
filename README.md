@@ -5,6 +5,14 @@ Real-time Rhodes electric piano as a VST3/CLAP instrument, built with
 parameters fitted to recordings: a hammer excites the tine modes, and their motion goes
 through the magnetic pickup nonlinearity, eps = -kappa dPsi(x, p_d)/dt.
 
+## Download
+
+The latest release (VST3 and CLAP, unzip into your plugin folder):
+[macOS](https://github.com/NiklasGrot/rhodes-plugin/releases/latest/download/Rhodes-macos.zip) ·
+[Windows](https://github.com/NiklasGrot/rhodes-plugin/releases/latest/download/Rhodes-windows.zip) ·
+[Linux](https://github.com/NiklasGrot/rhodes-plugin/releases/latest/download/Rhodes-linux.zip)
+
+
 ## Layout
 
 | Path | Contents |
