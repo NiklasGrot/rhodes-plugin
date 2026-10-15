@@ -1,12 +1,10 @@
-# Builds the VST3 and CLAP bundles on every push and pull request. Pushing a tag v*
-# (e.g. v0.1.0) also publishes them as a GitHub release.
+# Pushing a tag v* (e.g. v0.1.0) builds the VST3 and CLAP bundles and publishes them as a
+# GitHub release. It can also be started by hand from the Actions tab (build only).
 name: Build
 
 on:
   push:
-    branches: [main, master]
     tags: ["v*"]
-  pull_request:
   workflow_dispatch:
 
 jobs:
