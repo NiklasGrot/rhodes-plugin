@@ -12,15 +12,21 @@ The latest release (VST3 and CLAP, unzip into your plugin folder):
 [Windows](https://github.com/NiklasGrot/rhodes-plugin/releases/latest/download/Rhodes-windows.zip) ·
 [Linux](https://github.com/NiklasGrot/rhodes-plugin/releases/latest/download/Rhodes-linux.zip)
 
+> **macOS:** the plugin is not notarized, so macOS quarantines it after download and
+> DAWs fail to load it. Clear the flag once after installing:
+>
+> ```bash
+> sudo xattr -dr com.apple.quarantine /Library/Audio/Plug-Ins/VST3/Rhodes.vst3 /Library/Audio/Plug-Ins/CLAP/Rhodes.clap
+> ```
 
 ## Layout
 
-| Path | Contents |
-| --- | --- |
-| `dsp/` | `rhodes-dsp`: the model with no plugin dependencies, testable offline |
-| `plugin/` | `rhodes`: the nice-plug shell (params, MIDI, voices) |
-| `xtask/` | `cargo xtask bundle` |
-| `assets/` | Fitted parameters and the Psi lookup table, compiled into the binary |
+| Path      | Contents                                                              |
+| --------- | --------------------------------------------------------------------- |
+| `dsp/`    | `rhodes-dsp`: the model with no plugin dependencies, testable offline |
+| `plugin/` | `rhodes`: the nice-plug shell (params, MIDI, voices)                  |
+| `xtask/`  | `cargo xtask bundle`                                                  |
+| `assets/` | Fitted parameters and the Psi lookup table, compiled into the binary  |
 
 ## Assets
 
